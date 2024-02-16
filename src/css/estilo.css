@@ -1,0 +1,70 @@
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: hsl(0, 0%, 8%);
+}
+
+.cartao{
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    background-color: #1F1F1F;;
+    border-radius: 10px;
+    margin: 80px 0px 0px 0px;
+    padding: 30px;
+}
+
+.cartao img{
+    margin: 50px 0px 20px 0px;
+    border-radius: 90px;
+    max-width: 100px;
+}
+
+.titulo h1{
+    font-family: 
+    'Inter-VariableFont_slnt,wght' ;
+    color:  hsl(0, 0%, 100%);
+    margin: 0px;
+}
+
+.titulo h2{
+    font-family: 'Inter-Bold' ;
+    color: hsl(75, 94%, 57%);
+    margin: 0px;
+}
+
+.titulo p{
+    font-family: 'Inter-Regular';
+    color:rgb(202, 197, 197) ;
+    margin: 20px 0px 30px 0px;
+}
+
+.cartao .btn-redes {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 90%;
+    padding: 0;
+    font-size: 14px;
+
+}
+
+.cartao .btn-redes li{
+    color: aliceblue;
+    background-color: #333333;
+    transition: all .3s ease-in;
+    border: solid 1px #333333;
+    padding: 10px 50px;
+    border-radius: 10px;
+    font-family: 'Inter-SemiBold';
+}
+
+.cartao .btn-redes li:hover{
+    color: #333333;
+    background-color: hsl(75, 94%, 57%); 
+    border: 1px solid hsl(75, 94%, 57%);
+}
+
